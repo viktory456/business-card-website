@@ -1,0 +1,439 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .main {
+        background-color: #FFFFFF;
+        height: 930px;
+    }
+    
+    .padding-site {
+        padding: 0 150px;
+    }
+    
+    .padding-site2 {
+        padding: 0px 132px 0px 150px;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 0;
+    }
+    
+    .logo {
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        min-width: 263px;
+        font-size: 17px;
+        letter-spacing: 0.25em;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        float: left;
+        margin-left: 10px;
+        line-height: 18px;
+    }
+    
+    .menu-link {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        text-align: left;
+        vertical-align: middle;
+        letter-spacing: 10%;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #737373;
+        margin: 12px 20px;
+    }
+    
+    .menu-link:hover {
+        color: #000;
+    }
+    
+    #button1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        letter-spacing: 10%;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #737373;
+        padding: 12px 20px;
+        outline: solid 1px #000000;
+        background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .1s;
+    }
+    
+    #button1:hover {
+        background-position: 0 0;
+        color: #ffffff;
+    }
+    
+    .mainpage {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .offers {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .offer {
+        margin-bottom: 130px;
+        font-size: 84px;
+        line-height: 64px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-position: 100% 100%;
+        background-size: 200% 100%;
+        transition: all .1s;
+    }
+    
+    .offer:hover {
+        background-position: 55% 55%;
+    }
+    
+    .offer a {
+        position: relative;
+        bottom: 20px;
+        left: 25px;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #FFFFFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: left;
+        vertical-align: top;
+        text-decoration: none;
+    }
+    
+    .banner {
+        margin-left: 179px;
+    }
+    
+    .aboutmepage {
+        margin-top: 79px;
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .aboutmetext {
+        margin-left: 30px;
+    }
+    
+    .h2 {
+        width: 813px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: normal;
+        color: #FFFFFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 83px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        box-sizing: border-box;
+    }
+    
+    .common {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 22px;
+        color: #737373;
+    }
+    
+    .aboutmedesc {
+        width: 810px;
+    }
+    
+    .socials {
+        float: left;
+        position: relative;
+        left: -50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .social {
+        margin-bottom: 30px;
+    }
+    
+    .aboutmebanner {
+        position: relative;
+        bottom: 254px;
+    }
+    
+    .downloadcv {
+        margin-left: 29px;
+    }
+    
+    #button2 {
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        vertical-align: middle;
+        outline: solid 1px #000000;
+        padding: 11px 12px 11px 12px;
+        text-decoration: none;
+        line-height: 21px;
+        color: #737373;
+        clear: both;
+        background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .1s;
+    }
+    
+    #button2:hover {
+        background-position: 0 0;
+        color: #ffffff;
+    }
+    
+    .aboutmebuttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .mainportfolio {
+        background-color: #FFFFFF;
+        padding-bottom: 17px;
+        height: 1457px;
+    }
+    
+    .portfoliomenu {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .pfolio-link {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #FFFFFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .gallery {
+        margin-top: 43px;
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        grid-template-rows: repeat(6, auto);
+        grid-gap: 15px;
+    }
+    
+    .gallery-item {
+        background-color: #ffffff;
+        position: relative;
+    }
+    
+    .galleryimage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .galleryimage:hover {
+        filter: progid: DXImageTransform.Microsoft.Alpha(opacity=40);
+        -moz-opacity: 0;
+        /* Mozilla 1.6 è íèæå */
+        -khtml-opacity: 0;
+        /* Konqueror 3.1, Safari 1.1 */
+        opacity: 0;
+        /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+        filter: alpha(opacity=0);
+        /* IE 5.5+*/
+    }
+    
+    .gallerytext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .p1 {
+        font-family: 'Roboto', bold;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        display: none;
+    }
+    
+    .p2 {
+        font-family: 'Roboto', bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        display: none;
+    }
+    
+    .gallery-item:hover .p1 {
+        display: inline;
+    }
+    
+    .gallery-item:hover .p2 {
+        display: inline;
+    }
+    
+    .gallery-item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    
+    .gallery-item2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery-item3 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    
+    .gallery-item4 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    
+    .gallery-item5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .gallery-item6 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .gallery-item7 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .workadress {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    
+    .workexample {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .work1 {
+        margin-top: 50px;
+    }
+    
+    .work1link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    
+    .p3 {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .work1desc {
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    .p4 {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #FFFFFF;
+        font-style: normal;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 68px;
+        font-weight: 900;
+        line-height: 85px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .work1text {
+        margin-top: 30px;
+    }
+    
+    .p5 {
+        width: 360px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #737373;
+    }
+    
+    .p6 {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #FFFFFF;
+        font-style: normal;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 85px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    
+    .brandingtitle {
+        margin-top: 70px;
+    }
